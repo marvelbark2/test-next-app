@@ -5,13 +5,15 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "next-boost",
     "lint": "next lint"
   },
   "engines": {
     "node": "16.x"
   },
   "dependencies": {
+    "@next-boost/next-boost": "^0.15.2",
+    "@next-boost/redis-cache": "^0.4.0",
     "next": "12.2.2",
     "react": "18.2.0",
     "react-dom": "18.2.0"
